@@ -26,6 +26,7 @@ const GameBoard = () => {
       </div>
 
       <div className="floor top">
+
       </div>
     </div>
 

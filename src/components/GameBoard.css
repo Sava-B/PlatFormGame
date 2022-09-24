@@ -27,13 +27,30 @@
 
 @keyframes jump {
   0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(-80px);
+  }
+  50% {
+    transform: translateY(-80px);
+  }
+  75% {
+    transform: translateY(-80px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes obstacle {
+  0% {
     left: 100%
    }
    100% {
     left: -20%
    }
   }
-  
+
   .score{
     position: absolute;
     top: 5%;

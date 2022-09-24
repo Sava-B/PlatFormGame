@@ -10,3 +10,7 @@
   transform: translateY(40px);
   border-bottom: 1px solid black;
 }
+
+body {
+  background-image: url('images/sky_4.png');
+}

@@ -19,6 +19,13 @@
     animation-duration: 6s;
   }
 
+  .score{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 1rem;
+  }
+
   @keyframes obstacle {
     0% {
         left: 100%

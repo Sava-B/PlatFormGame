@@ -19,7 +19,6 @@ const GameBoard = () => {
         <FaDog size={60} />
       </div>
       <Score />
-      <div className="floor"></div>
       <div className="obstacle">
         <IoAmericanFootballSharp size={60} />
       </div>

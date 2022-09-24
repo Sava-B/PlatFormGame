@@ -13,14 +13,14 @@ const dogJump = () => {
   setTimeout(() => dog.classList.remove("jump"), 1500);
 };
 
-const GameBoard = ({ start }) => {
+const GameBoard = ({ start, startGame }) => {
   return (
     <div className="container">
       <div onClick={dogJump} className="dog">
         <FaDog size={60} />
       </div>
-      <Score />
-      <StartButton />
+      <Score start={start} />
+      <StartButton start={start} startGame={startGame} />
 
       <div className="obstacle">
         <IoAmericanFootballSharp size={60} />

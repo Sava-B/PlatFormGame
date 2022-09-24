@@ -24,7 +24,11 @@ const GameBoard = () => {
       <div className="obstacle">
         <IoAmericanFootballSharp size={60} />
       </div>
+
+      <div className="floor top">
+      </div>
     </div>
+
   );
 };
 

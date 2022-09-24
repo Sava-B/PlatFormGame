@@ -12,7 +12,7 @@ const App = () => {
 
       </div>
       <div className='obstacle'>
-        <IoAmericanFootballSharp />
+        <IoAmericanFootballSharp size={60}/>
       </div>
     </div>
   )

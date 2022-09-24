@@ -33,6 +33,7 @@ const GameBoard = () => {
       <div className="floor top">
       </div>
     </div>
+    </div>
   );
 };
 

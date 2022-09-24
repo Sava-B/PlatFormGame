@@ -42,6 +42,7 @@
     100% {
       transform: translateY(0px);
     }
+  }
 
   .score{
     position: absolute;

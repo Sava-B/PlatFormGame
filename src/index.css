@@ -10,3 +10,10 @@
   transform: translateY(40px);
   border-bottom: 1px solid black;
 }
+
+.score{
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-size: 1rem;
+}

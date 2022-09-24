@@ -13,6 +13,7 @@ const dogJump = () => {
   setTimeout(() => dog.classList.remove("jump"), 1500);
 };
 
+
 const GameBoard = () => {
   return (
     <div className="container">
@@ -23,6 +24,9 @@ const GameBoard = () => {
 
       <div className="obstacle">
         <IoAmericanFootballSharp size={60} />
+      </div>
+
+      <div className="floor top">
       </div>
     </div>
   );

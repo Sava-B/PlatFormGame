@@ -5,12 +5,12 @@ import Score from "./Score";
 import "./GameBoard.css";
 
 
-  const dogJump = () => {
+const dogJump = () => {
   const dog = document.querySelector(".dog");
   if (!dog.classList.contains("jump")) {
     dog.classList.add("jump");
   }
-  setTimeout(() => dog.classList.remove("jump"), 2000);
+  setTimeout(() => dog.classList.remove("jump"), 1500);
 };
 
 const GameBoard = () => {

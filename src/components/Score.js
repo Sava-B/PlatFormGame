@@ -17,7 +17,7 @@ const Score = ({ start }) => {
     }
     setInterval(() => {
       setScore((prevScore) => prevScore + 1);
-    }, 1000);
+    }, 400);
   }, [start]);
   // setInterval(setScore(score + 1), 1000)
 

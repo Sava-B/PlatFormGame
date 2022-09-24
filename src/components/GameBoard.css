@@ -5,13 +5,16 @@
   justify-content: left;
   align-items: center;
   border-bottom: 1px solid black;
-  background: url('../images/sky_4.png')
+  background: url("../images/sky_4.png");
 }
 
 .floor {
   width: 100vw;
   transform: translateY(40px);
   border-bottom: 1px solid black;
+  position: absolute;
+  left: 0;
+  bottom: 50%;
 }
 
 .obstacle {
@@ -45,17 +48,16 @@
 }
 @keyframes obstacle {
   0% {
-    left: 100%
-   }
-   100% {
-    left: -20%
-   }
+    left: 100%;
   }
-
-  .score{
-    position: absolute;
-    top: 5%;
-    right: 5%;
-    font-size: 1rem;
-
+  100% {
+    left: -20%;
   }
+}
+
+.score {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-size: 1rem;
+}

@@ -4,7 +4,6 @@ import { IoAmericanFootballSharp } from "react-icons/io5";
 import Score from "./Score";
 import "./GameBoard.css";
 
-
 const dogJump = () => {
   const dog = document.querySelector(".dog");
   if (!dog.classList.contains("jump")) {
@@ -13,7 +12,6 @@ const dogJump = () => {
   setTimeout(() => dog.classList.remove("jump"), 1500);
 };
 
-
 const GameBoard = () => {
   return (
     <div className="container">
@@ -21,13 +19,12 @@ const GameBoard = () => {
         <FaDog size={60} />
       </div>
       <Score />
-
+      <div className="floor"></div>
       <div className="obstacle">
         <IoAmericanFootballSharp size={60} />
       </div>
 
-      <div className="floor top">
-      </div>
+      <div className="floor top"></div>
     </div>
   );
 };

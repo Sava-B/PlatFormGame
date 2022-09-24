@@ -1,4 +1,5 @@
 import React from 'react'
+<<<<<<< HEAD
 import { FaDog } from 'react-icons/fa'
 import { IoAmericanFootballSharp } from 'react-icons/io5'
 import Score from './components/Score'
@@ -17,6 +18,13 @@ const App = () => {
         <IoAmericanFootballSharp />
       </div>
     </div>
+=======
+import GameBoard from './components/GameBoard'
+
+const App = () => {
+  return (
+    <GameBoard />
+>>>>>>> main
   )
 }
 

@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    height: 100vh;
+    width: 80vw;
+    justify-content: left;
+    align-items: center;
+  }
+  
+  .floor {
+    width: 100vw;
+    transform: translateY(40px);
+    border-bottom: 1px solid black;
+  }
+
+  .obstacle {
+    animation-name: obstacle;
+    animation-iteration-count: infinite;
+    position: absolute;
+    animation-duration: 6s;
+  }
+
+  .score{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 1rem;
+  }
+
+  @keyframes obstacle {
+    0% {
+        left: 100%
+    }
+
+    100% {
+        left: 0%
+    }
+  }

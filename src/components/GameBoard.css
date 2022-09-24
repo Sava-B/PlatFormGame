@@ -1,13 +1,4 @@
 .container {
-<<<<<<< HEAD
-    display: flex;
-    height: 100vh;
-    width: 120vw;
-    justify-content: left;
-    align-items: center;
-    border-bottom: 1px solid black;
-    background: url('../images/sky_4.png')
-=======
   display: flex;
   height: 100vh;
   width: 120vw;
@@ -38,7 +29,6 @@
 @keyframes jump {
   0% {
     transform: translateY(0px);
->>>>>>> 02c61d79b6c355dae488e3fd7c677680f3cef1a9
   }
   25% {
     transform: translateY(-80px);
@@ -69,6 +59,3 @@
     font-size: 1rem;
 
   }
-
-  
-

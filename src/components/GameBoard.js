@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaDog } from "react-icons/fa";
 import { IoAmericanFootballSharp } from "react-icons/io5";
 import Score from "./Score";
+import StartButton from "./StartButton";
 import "./GameBoard.css";
 
 const dogJump = () => {
@@ -13,13 +14,14 @@ const dogJump = () => {
   setTimeout(() => dog.classList.remove("jump"), 2000);
 };
 
-const GameBoard = () => {
+const GameBoard = ({ start }) => {
   return (
     <div className="container">
       <div onClick={dogJump} className="dog">
         <FaDog size={60} />
       </div>
-      <Score />
+      {!start && <Score />}
+      <StartButton />
 
       <div className="obstacle">
         <IoAmericanFootballSharp size={60} />

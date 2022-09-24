@@ -20,7 +20,7 @@ const GameBoard = ({ start }) => {
       <div onClick={dogJump} className="dog">
         <FaDog size={60} />
       </div>
-      {!start && <Score />}
+      <Score />
       <StartButton />
 
       <div className="obstacle">

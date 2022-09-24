@@ -1,8 +1,8 @@
 import React from 'react'
-
+import { FaDog } from 'react-icons/fa'
 const App = () => {
   return (
-    <div>App</div>
+    <div><FaDog size={60}/></div>
   )
 }
 

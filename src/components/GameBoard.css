@@ -5,6 +5,7 @@
     justify-content: left;
     align-items: center;
     border-bottom: 1px solid black;
+    background: url('../images/sky_4.png')
   }
   
   .floor {

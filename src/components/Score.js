@@ -7,9 +7,10 @@ const Score = () => {
 
     useEffect(() => {
         setInterval(() => {
-            setScore(prevScore => prevScore + 1);
+            setScore(prevScore => prevScore + 0.5);
+            
         }, 500)
-    }, )
+    }, [])
     // setInterval(setScore(score + 1), 1000)
     
 

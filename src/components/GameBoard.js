@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaDog } from "react-icons/fa";
 import { IoAmericanFootballSharp } from "react-icons/io5";
+import Score from "./Score"
 import "./GameBoard.css";
 
 const dogJump = () => {
@@ -16,7 +17,12 @@ const dogJump = () => {
 const GameBoard = () => {
   return (
     <div className="container">
+
       <div onClick={dogJump} className="dog">
+
+      <Score/>
+      <div className="dog">
+
         <FaDog size={60} />
       </div>
         

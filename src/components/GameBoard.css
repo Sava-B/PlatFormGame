@@ -20,6 +20,7 @@
     animation-duration: 6s;
   }
 
+
   .jump {
     animation-name: jump;
     animation-duration: 2s;
@@ -41,6 +42,13 @@
     100% {
       transform: translateY(0px);
     }
+
+  .score{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 1rem;
+
   }
 
   @keyframes obstacle {

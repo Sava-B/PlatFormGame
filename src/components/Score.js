@@ -11,10 +11,14 @@ const Score = ({ start }) => {
   }, [start]);
 
   useEffect(() => {
+    if (!start) {
+      clearInterval();
+      return;
+    }
     setInterval(() => {
       setScore((prevScore) => prevScore + 1);
-    }, 500);
-  });
+    }, 1000);
+  }, [start]);
   // setInterval(setScore(score + 1), 1000)
 
   return <div className="score">Score: {score}</div>;

@@ -13,6 +13,7 @@ const dogJump = () => {
   setTimeout(() => dog.classList.remove("jump"), 1500);
 };
 
+
 const GameBoard = () => {
   return (
     <div className="container">

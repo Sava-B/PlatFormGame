@@ -1,0 +1,17 @@
+Git commands
+
+~Delete a branch
+$git brach --delete <BranchName>
+
+
+-merge origin/master branch to feature branch
+# step1: change branch to master, and pull to update all commits
+$ git checkout master
+$ git pull
+
+# step2: change branch to target, and pull to update commits
+$ git checkout feature
+$ git pull
+
+# step3: merge master to feature(⚠️ current is feature branch)
+$ git merge master

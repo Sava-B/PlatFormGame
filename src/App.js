@@ -1,10 +1,10 @@
-import React from 'react'
-import GameBoard from './components/GameBoard'
+import { useState } from "react";
+import GameBoard from "./components/GameBoard";
 
 const App = () => {
-  return (
-    <GameBoard />
-  )
-}
+  const [gameStart, setGameStart] = useState(false);
 
-export default App
+  return <GameBoard start={gameStart} />;
+};
+
+export default App;
